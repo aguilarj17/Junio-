@@ -1,0 +1,1 @@
+Hello this program is to can change the white space by _ in a function in c
