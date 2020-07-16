@@ -1,0 +1,23 @@
+ def parse_sentence(word_list):  
+        subj = parse_subject(word_list) 
+        verb = parse_verb(word_list) 
+        obj = parse_object(word_list) 
+        
+        return Sentence(subj, verb, obj)
+        
+        
+        
+        
+        def saludar(nombre, mensage = 'Hola'):
+        print(mensage, nombre)
+    
+saludar('Pepe Grillo')
+        
+        
+        
+        
+    def mi_funcion(apellido, nombre):
+    nombre_completo = nombre, apellido
+    print(nombre_completo)
+    
+mi_funcion(apellido = "Aguilar", nombre = "Jorge")
