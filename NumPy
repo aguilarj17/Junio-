@@ -1,0 +1,50 @@
+#Program for know the biggest and the minimum of and randon matrix and the sum
+#Import the librarie numpy
+import numpy as np
+#Create the matrix
+aleatorio = np.random.random((3,2))
+#print the result 
+print(aleatorio)
+print('The gratest number of the matrix is:')
+print(aleatorio.max())
+print('The minimum of the matrix is:')
+print(aleatorio.min())
+print('the sum of the matrix is:')
+print(aleatorio.sum())
+
+
+
+
+
+#cambio de una matriz por su matriz transpuesta 
+import numpy as np
+#Create the first matrix 
+mtrz = np.array([(1,2,3),(4,5,6)])
+print('Matrix A')
+print(mtrz)
+#selec the rows and the change to the columns 
+mtrz= mtrz.reshape(3,2)
+print('Matrix A transpuesta')
+print(mtrz)
+
+
+
+
+
+
+#Matrix sum
+#Import numpy
+import numpy as np
+#Then create the two matrix
+x = np.array([(3,5,8),(9,2,8)])
+y = np.array([(6,7,2),(9,11,5)])
+#Prit Matrix A and B
+print('The matrix A')
+print(x)
+print('The matrix B')
+print(y)
+#and Finally print the sum of the matrix
+print('The sum of the matrix is: ')
+print(x+y)
+
+
